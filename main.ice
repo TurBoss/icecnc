@@ -309,13 +309,13 @@
           "id": "af7d7272-d3a0-4866-ab66-785d6e874e73",
           "type": "basic.constant",
           "data": {
-            "name": "BAUS",
+            "name": "BAUDS",
             "value": "115200",
             "local": false
           },
           "position": {
             "x": 3016,
-            "y": 1952
+            "y": 1976
           }
         },
         {
@@ -698,7 +698,7 @@
           "id": "d1b55bfe-318e-4c21-a468-e7eb22b6c5fc",
           "type": "0bc4c1e9f52eee5cc6f5cba2c1dbd3a196550c57",
           "position": {
-            "x": 3184,
+            "x": 3200,
             "y": 2096
           },
           "size": {
@@ -1630,7 +1630,13 @@
           "target": {
             "block": "c82bf582-1aa5-42ab-867d-b734be6fa9d7",
             "port": "671d0b4d-317d-4aef-8422-8b9a400211a4"
-          }
+          },
+          "vertices": [
+            {
+              "x": 3008,
+              "y": 2096
+            }
+          ]
         },
         {
           "source": {
@@ -1650,7 +1656,13 @@
           "target": {
             "block": "dd074c97-00a5-404b-9a02-5149c9a6fd56",
             "port": "06620f45-9e35-411b-a035-1c99919f416a"
-          }
+          },
+          "vertices": [
+            {
+              "x": 3528,
+              "y": 2080
+            }
+          ]
         },
         {
           "source": {
@@ -1676,7 +1688,13 @@
           "target": {
             "block": "60fce939-71c5-497d-b969-c0425eedc8f5",
             "port": "671d0b4d-317d-4aef-8422-8b9a400211a4"
-          }
+          },
+          "vertices": [
+            {
+              "x": 3016,
+              "y": 2296
+            }
+          ]
         },
         {
           "source": {
@@ -1703,6 +1721,22 @@
             "block": "9f4505d1-cbb0-46cd-a3d0-d1e742f5cba9",
             "port": "1e637a79-4a6d-495c-bcac-9664bdbe4b94"
           }
+        },
+        {
+          "source": {
+            "block": "af7d7272-d3a0-4866-ab66-785d6e874e73",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "40dae6a7-e159-42bf-9c43-a7ae8e695f11",
+            "port": "671d0b4d-317d-4aef-8422-8b9a400211a4"
+          },
+          "vertices": [
+            {
+              "x": 3000,
+              "y": 2480
+            }
+          ]
         }
       ]
     }
